@@ -3,22 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.lygit.example.MainActivity">
 
     <Button
         android:id="@+id/b_credit"
-        android:onClick="credit"
-        android:text="信用积分表盘"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="credit"
+        android:text="信用积分表盘" />
+
     <Button
-        android:onClick="spider"
-        android:text="雷达表盘"
         android:id="@+id/b_spider"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="spider"
+        android:text="雷达表盘" />
 
 </LinearLayout>
