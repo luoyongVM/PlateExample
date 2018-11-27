@@ -1,6 +1,8 @@
 # PlateExample
 信用表盘，雷达表盘
 
+![img](https://github.com/luoyongVM/PlateExample/blob/master/raw/111.gif)
+
 Examples
 =======
 
