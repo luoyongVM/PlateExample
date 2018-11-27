@@ -17,9 +17,6 @@ Examples
     android:layout_height="match_parent" />
 ```
 
-
-
-
 How to Use
 =======
 **In your app build.gradle. Add the following lines**
