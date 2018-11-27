@@ -31,3 +31,19 @@ dependencies {
 //    androidTestCompile 'com.android.support.test:runner:1.0.2'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
 }
+
+
+apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'maven'
+
+publish {
+
+    userOrg = 'luozhiyong'
+    repoName = "ly"
+    groupId = 'com.ly.design'
+    artifactId = 'PlateLib'
+    publishVersion = '1.0.1'
+    desc = 'A customizable PlateLib on Android'
+    website = 'https://github.com/luoyongVM/PlateExample'
+    licences = ['Apache-2.0']
+}
