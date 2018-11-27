@@ -22,7 +22,6 @@ Examples
 
 How to Use
 =======
-## Method I
 **In your app build.gradle. Add the following lines**
 
 ```
